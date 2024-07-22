@@ -1,5 +1,199 @@
+/* ----------Genaral---------- */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+/* ----------Nav-Bar---------- */
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.navbar-brand{
+    font-size: 36px !important;
+    font-weight: bold;
+}
+.navbar-brand span{
+    color: #e03a3c;
+}
+.navbar .collapse{
+    justify-content: end;
+}
+.navbar ul li{
+    padding: 16px;
+    font-size: 17px;
+}
+.navbar ul li .active{
+    color: #e03a3c !important;
+}
+.navbar ul li a:hover{
+    color: #e03a3c !important;
+}
+.navbar button{
+    border: 2px #e03a3c solid;
+    color: white;
+    background-color: #e03a3c;
+}
+.navbar button:hover{
+    border: 2px #e03a3c solid;
+    color: #e03a3c;
+}
+/* ----------Hero-Section---------- */
+.hero img{
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    filter: brightness(30%);
+}
+.hero .hero-txt{
+    position: absolute;
+    top: 40%;
+}
+.hero-txt h1{
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.hero-txt h3{
+    color: rgb(194, 193, 193);
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.hero-txt button{
+    padding: 8px 32px;
+    font-weight: 500;
+    background-color: #e03a3c;
+    border-radius: 3px;
+    border: 2px solid #e03a3c;
+}
+.hero-txt button:hover{
+    background-color: transparent;
+    border: 2px solid #e03a3c;
+    color: #e03a3c;
+}
+.play-btn{
+    padding: 0 16px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.play-btn i{
+    font-size: 30px;
+    color: #e03a3c;
+}
+.play-btn span{
+    font-size: 16px;
+    padding: 0 8px;
+}
+.play-btn span:hover{
+    color: #e03a3c;
+}
+/* ---------Clients---------- */
+.client{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.slide{
+    padding: 20px 30px;
+    filter: grayscale(100);
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.slide:hover{
+    filter: none;
+    opacity: 1;
+    transition: 0.5s;
+}
+.owl-dots .active span{
+    background-color: #e03a3c !important;
+}
+/* ----------About-Us----------- */
+.about{
+    background-color: black;
+    padding: 80px 0;
+    margin: 80px 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    transform: skewY(-3deg);
+}
+.about > *{
+    transform: skewY(3deg);
+}
+.about h1{
+    color: white;
+    padding-bottom: 20px;
+}
+.about p{
+    color: white;
+    padding-bottom: 20px;
+}
+.about .btn{
+    background-color: transparent;
+    font-size: small;
+    font-weight: bold;
+    border: 2px #e03a3c solid;
+    border-radius: 30px;
+    padding: 10px 25px;
+}
+.about .btn i{
+    color: white;
+}
+.about .btn:hover{
+    background-color: #e03a3c;
+    border: 2px #e03a3c solid;
+}
+.about .about-info i{
+    font-size: 40px;
+    color: #e03a3c;
+    padding-bottom: 10px;
+}
+.about-info a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+.about-info a:hover{
+    color: #e03a3c;
+}
+.about-info p{
+    color: rgb(174, 172, 172);
+    cursor: pointer;
+}
+.card{
+    padding: 28px 0 18px 0;
+    margin: 60px 0;
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+    position: relative;
+}
+.card h1{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(91, 91, 91);
+}
+.card h5{
+    text-align: center;
+    font-weight: 300;
+    color: rgb(91, 91, 91);
+}
+.card i{
+    color: #e03a3c;
+    font-size: 24px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 16px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+    position: absolute;
+    top: -30px;
+    left: 40%;
 }

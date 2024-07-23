@@ -197,3 +197,103 @@
     top: -30px;
     left: 40%;
 }
+/* ---------Nav-and-Tabs---------- */
+.navbox{
+    border: 1px rgb(204, 204, 204) solid;
+    padding: 20px 0;
+    margin: 26px 0px !important;
+    cursor: pointer;
+}
+.navbox i{
+    font-size: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbox.active{
+    background-color: #e03a3c;
+    color: white;
+    border: 1px #e03a3c solid;
+}
+.navbox.active:hover i{
+    color: white;
+}
+.navbox:hover{
+    border: 1px #e03a3c solid;
+}
+.navbox:hover i{
+    color: #e03a3c;
+}
+.tab-content{
+    margin: 20px 0;
+}
+.tab-content span{
+    font-style: italic;
+}
+.tab-content i{
+    color: #e03a3c;
+}
+/* -------------------------------------------------Media-Query */
+@media only screen and (max-width:480px) {
+    .navbox .none{
+        display: none;
+    }
+    .navbox i{
+        display: block;
+        padding: 0 14px;
+        font-size: 30px;
+    } 
+}
+/* ----------Services---------- */
+.services{
+    background-color: black;
+    padding: 80px 0;
+    margin: 80px 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    transform: skewY(-3deg);
+}
+.services > *{
+    transform: skewY(3deg);
+}
+.services h2{
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.services h6{
+    text-align: center;
+    color: transparent;
+    background-color: #e03a3c;
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    left: 48%;
+}
+.services p{
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+.info-box{
+    background-color: rgb(37, 37, 37);
+    padding: 24px;
+    margin: 10px 0 !important;
+    cursor: pointer;
+}
+.info-box:hover{
+    background-color: rgb(63, 63, 63);
+    transition: 0.5s;
+}
+.info-box i{
+    color: #e03a3c;
+    font-size: 36px;
+}
+.info-box h4{
+    color: white;
+}
+.info-box p{
+    text-align: start;
+    padding: 0;
+}

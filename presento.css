@@ -1113,3 +1113,46 @@
     background-color: transparent !important;
     color: #e03a3c !important;
 }
+
+.blank-line{
+    background-color: #444444;
+    color: transparent;
+    height: 2px;
+    margin: 30px 0 5px 0;
+}
+.copyright p{
+    text-align: center;
+    font-size: smaller;
+    padding-bottom: 20px;
+}
+/* -------------------------------------------------Media-Query */
+@media only screen and (max-width:480px) {
+    .blank-line{
+        margin-top: 20px !important;
+    }
+}
+/* ---------Arrow--------- */
+.arrow{
+    cursor: pointer;
+    background-color: #e03a3c;
+    width: 35px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+.arrow i{
+    color: white;
+    font-size: large;
+}
+.arrow:hover{
+    background-color: transparent;
+    border: 2px solid #e03a3c;
+}
+.arrow:hover i{
+    color: #e03a3c;
+}

@@ -36,15 +36,16 @@
     color: #e03a3c !important;
 }
 
-.navbar button {
+.navbar .nav-btn {
     border: 2px #e03a3c solid;
     color: white;
     background-color: #e03a3c;
 }
 
-.navbar button:hover {
-    border: 2px #e03a3c solid;
-    color: #e03a3c;
+.navbar .nav-btn:hover {
+    background-color: transparent;
+    border: 2px #e03a3c solid !important;
+    color: #e03a3c !important;
 }
 
 /* ----------Hero-Section---------- */
